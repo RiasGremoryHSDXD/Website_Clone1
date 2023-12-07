@@ -1,0 +1,33 @@
+
+.VideoContainer
+{   
+    box-shadow: 10px 10px 10px gray;
+    margin-top: 150px;
+    margin-left: 320px;
+    margin-bottom: 10%;
+    width: 750px;
+    height: 400px;
+}
+
+.ContentSize{
+    width: 750px;
+    height: 400px;
+}
+
+.Logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Hymn{
+    box-shadow: 10px 10px 10px gray;
+    margin-left: 320px;
+    width: 750px;
+    height: 400px;
+}
+
+.underLine{
+    text-decoration: underline;
+    cursor: pointer;
+}

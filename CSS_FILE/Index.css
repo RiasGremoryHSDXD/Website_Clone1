@@ -1,0 +1,60 @@
+#SlideFrameSize
+{   
+    border: 5px solid darkblue;
+    margin-top: 150px;
+    margin-left: 305px;
+    margin-bottom: 10%;
+    width: 750px;
+    height: 400px;
+    background-size: 100% 100%; 
+    display: flex;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+}
+
+#ImageSlideSize{
+    animation: SlideImage 16s linear 2s infinite alternate;
+    width: 750px;
+    height: 400px;
+    z-index: 1;
+}
+
+@keyframes SlideImage {
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(-680px);
+    }
+    66%{
+        transform: translateX(-1500px);
+    }
+    100%{
+        transform: translateX(-1978px);
+    }
+}
+
+.Button{
+    background-color: darkblue;
+    padding: 14px 20px;
+    border-radius: 5px;
+}
+
+.Button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.Text{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.BtnDiv{
+    margin-left: 45%;
+}
+
+.marginLeft{
+    margin-left: 30px;
+}

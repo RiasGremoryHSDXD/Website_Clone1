@@ -1,0 +1,21 @@
+.PictureFrameSize
+{   
+    border: 5px solid darkblue;
+    margin-top: 150px;
+    margin-left: 305px;
+    margin-bottom: 10%;
+    width: 750px;
+    height: 400px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.ImageSize{
+    width: 750px;
+    height: 400px;
+}
+
+p
+{
+    text-indent: 50px;
+}
+

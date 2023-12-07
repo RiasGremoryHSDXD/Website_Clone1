@@ -1,0 +1,49 @@
+.NaECon1{
+    position: relative;
+    top: 100px;
+    margin: auto; 
+    justify-content: center; 
+    display: flex;
+}
+
+.NaECon2{
+    position: relative;
+    top: 120px;
+    margin: auto; 
+    justify-content: center; 
+    display: flex;
+}
+
+.Content{
+    position:relative;
+    width: 290px;
+    height: 400px;
+    border: 2px solid darkblue;
+    margin-right: 20px;
+    
+}
+
+.ImageSize{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+
+.BoxText{
+    background-color: white;
+    margin: 10px;
+
+}
+
+.BoxText h3{
+    text-align: center;
+    color: #fdb316;
+    font-size: 100%;
+}
+
+.Content:hover{
+    text-decoration: underline;
+    box-shadow: 5px 5px 3px grey;
+    cursor: pointer;
+}

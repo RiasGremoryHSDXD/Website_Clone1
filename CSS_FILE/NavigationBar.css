@@ -1,0 +1,67 @@
+#container{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+#navigationBar{
+    position: relative;
+    border-bottom: 2px solid black;
+    background-color: white;
+    width: 650%;
+}
+
+#USTPLOGO{
+    width: 4%;
+    height: 4%;
+    margin-left: 1%;
+    margin-top: 0.6%;
+    margin-bottom: 0.3%;
+}
+
+.OrderListStyle
+{
+    list-style-type: none;
+}
+
+li
+{
+    display: inline;
+}
+
+li a 
+{
+    text-decoration: none;
+    color: black;
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 14.1px;
+    padding: 5% 5px 6.4% 5px;
+}
+
+
+.OrderListStyle li a:hover
+{
+    background-color: gray;
+}
+
+.Box{
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    width: fit-content;
+}
+
+
+#SchoolNameContent
+{
+    position: absolute;
+    left: 100px;
+    top: 4px;
+    color: black;
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    width: fit-content;
+}

@@ -1,0 +1,26 @@
+h3 {
+    font-family: "Open Sans", sans-serif;
+    color: darkblue;
+    margin-left: 20px;
+}
+
+p {
+    font-family: Merriweather, serif;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    color: darkblue;
+}
+
+hr {
+    position: relative;
+    top:-10px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.marginBottom{
+    margin-bottom: 50px;
+}
+
